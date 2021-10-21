@@ -5,13 +5,15 @@ the unit tests to check your code.
 
 ## Callbacks
 
-1. Open [src/01-callbacks.js](src/01-callbacks.js) and create and export an `addAsync` function.
+1. Open [src/01-callbacks.js](src/01-callbacks.js) and import `add` from `lib/add.js`.
 
-2. `addAsync` should call the function `add`, but should be an asynchronous node-style callback function.
+2. Create and export an `addAsync` function.
+
+3. `addAsync` should call the function `add`, but should be an asynchronous node-style callback function. 
 
    hint: You can use `setTimeout` to make it async.
 
-3. run `npm test -- callbacks` to test.
+4. run `npm test -- callbacks` to test.
 
 Proceed when all tests are green.
 
